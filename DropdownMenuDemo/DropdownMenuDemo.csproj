@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Custom\app.ico" />
+    <None Remove="Assets\Custom\close.png" />
+    <None Remove="Assets\Icons\alarm-clock.png" />
+    <None Remove="Assets\Icons\album-collection.png" />
+    <None Remove="Assets\Icons\angle-small-down.png" />
+    <None Remove="Assets\Icons\angle-small-right.png" />
+    <None Remove="Assets\Icons\hard-hat.png" />
+    <None Remove="Assets\Icons\layers.png" />
+    <None Remove="Assets\Icons\layout-fluid.png" />
+    <None Remove="Assets\Icons\mode-landscape.png" />
+    <None Remove="Assets\Icons\select.png" />
+    <None Remove="Assets\Icons\settings.png" />
+    <None Remove="Assets\Icons\share.png" />
+    <None Remove="Assets\Icons\thumbtack.png" />
+    <None Remove="Assets\Icons\tools.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Custom\app.ico" />
+    <Resource Include="Assets\Custom\close.png" />
+    <Resource Include="Assets\Icons\alarm-clock.png" />
+    <Resource Include="Assets\Icons\album-collection.png" />
+    <Resource Include="Assets\Icons\angle-small-down.png" />
+    <Resource Include="Assets\Icons\angle-small-right.png" />
+    <Resource Include="Assets\Icons\hard-hat.png" />
+    <Resource Include="Assets\Icons\layers.png" />
+    <Resource Include="Assets\Icons\layout-fluid.png" />
+    <Resource Include="Assets\Icons\mode-landscape.png" />
+    <Resource Include="Assets\Icons\select.png" />
+    <Resource Include="Assets\Icons\settings.png" />
+    <Resource Include="Assets\Icons\share.png" />
+    <Resource Include="Assets\Icons\thumbtack.png" />
+    <Resource Include="Assets\Icons\tools.png" />
+  </ItemGroup>
+
+</Project>
